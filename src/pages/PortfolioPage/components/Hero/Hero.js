@@ -76,8 +76,7 @@ const Hero = () => {
               color: 'common.white',
             }}
           >
-            Full Stack Developer - React, Node.js, Express, MongoDB and more
-            AWS, Docker, Kubernetes
+            Ingegnere del software
           </Typography>
         </Box>
       </Container>

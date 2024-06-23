@@ -67,7 +67,7 @@ const Footer = () => {
                 color="primary"
                 component="a"
                 target="blank"
-                href="mailto:giorgio.tassinari@proton.me"
+                href="/contact"
                 size="small"
               >
                 contact me

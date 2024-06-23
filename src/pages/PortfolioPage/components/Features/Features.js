@@ -58,20 +58,19 @@ const Features = () => {
                 sx={{ fontWeight: 700, color: 'common.white' }}
                 gutterBottom
               >
-                Monitor and analyze usage patterns.
+                Monitora e analizza i modelli di utilizzo.
               </Typography>
               <Typography sx={{ color: 'common.white' }} variant={'h6'}>
-                Keep track of what's happening with your data, change
-                permissions, and run reports against your data anywhere in the
-                world.
+                Monitora e analizza i modelli di utilizzo per ottimizzare le
+                operazioni e la distribuzione delle risorse.
               </Typography>
             </Box>
             <Grid container spacing={1}>
               {[
-                'Affordable, scalable and performant. The perfect solution for small apps.',
-                'A mid-sized solution for businesses undergoing rapid user growth.',
-                'A farm of machines entirely dedicated to your company\'s storage needs.',
-                'A mid-sized solution for businesses undergoing rapid user growth.',
+                'una soluzione di piccole dimensioni per le aziende in crescita.',
+                'Una fattoria di macchine interamente dedicata alle esigenze di archiviazione della tua azienda.',
+                'semplice da usare, scalabile e personalizzabile.',
+                'performante e la soluzione perfetta per la tua necessità.',
               ].map((item, i) => (
                 <Grid item xs={12} key={i}>
                   <Box

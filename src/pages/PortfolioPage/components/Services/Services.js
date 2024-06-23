@@ -12,7 +12,7 @@ const mock = [
   {
     title: 'Idea',
     subtitle:
-      'We meet with your team to know more about your idea, project and goal. After that, our team sits to create an action plan and proposal for your project.',
+      'tu hai un idea, un progetto o un business che vuoi portare online? Contattami e insieme possiamo realizzarlo.',
     icon: (
       <svg
         width={42}
@@ -34,7 +34,7 @@ const mock = [
   {
     title: 'Design',
     subtitle:
-      'We start by designing a mockup or prototype of your website/app, and present it to you. Once with the initial mockup, we start the revision process to perfect it.',
+      'iniziamo progettando un mockup o un prototipo del tuo sito web/app, e te lo presentiamo. Una volta con il mockup iniziale, iniziamo il processo di revisione per perfezionarlo.',
     icon: (
       <svg
         width={42}
@@ -54,9 +54,9 @@ const mock = [
     ),
   },
   {
-    title: 'Development',
+    title: 'Sviluppo',
     subtitle:
-      'We develop your website using the best practices and standards, so you have a perfectly responsive, lightning fast, and super scalable website.',
+      'sviluppiamo il tuo sito web o la tua applicazione seguendo le linee guida del design. Ti teniamo aggiornato durante tutto il processo di sviluppo.',
     icon: (
       <svg
         width={42}
@@ -76,9 +76,9 @@ const mock = [
     ),
   },
   {
-    title: 'Launch & Maintenance',
+    title: 'Lancio e manutenzione',
     subtitle:
-      'When the project is ready, we help you to launch it and push it live. After that, we meet with your team to train them on how to edit, update and scale it.',
+      'quando il tuo sito web o la tua applicazione è pronto, lo lanciamo e ti forniamo un servizio di manutenzione per garantire che tutto funzioni correttamente.',
     icon: (
       <svg
         width={42}
@@ -114,7 +114,7 @@ const Services = () => {
           color={'secondary'}
           align={'center'}
         >
-          Services
+          Servizi
         </Typography>
         <Typography
           fontWeight={700}
@@ -123,7 +123,7 @@ const Services = () => {
           gutterBottom
           data-aos={'fade-up'}
         >
-          We are a small agency of talented designers & developers.
+          Costruisco applicazioni e siti web per piccole e medie imprese
         </Typography>
         <Typography
           variant={'h6'}
@@ -132,20 +132,13 @@ const Services = () => {
           align={'center'}
           data-aos={'fade-up'}
         >
-          Unlike teams from big agencies, we will treat your project as ours.
+          Sia con wordpress che con altre tecnologie costruisco e-commerce e gestionali personalizzati per le aziende.
           <br />
-          We will walk you through our smooth and simple process.
+          Niente sprechi di risorse, solo quello che serve per la tua applicazione.
         </Typography>
-        <Box
-          marginTop={2}
-          display={'flex'}
-          justifyContent={'center'}
-          data-aos={'fade-up'}
-        >
-          <Button color={'primary'} variant={'contained'} size={'large'}>
-            Contact us
-          </Button>
-        </Box>
+        <Button color={'primary'} variant={'contained'} size={'large'} onClick={() => { window.location.href = "/contact";  }}>
+          Contattami
+        </Button>
       </Box>
       <Grid container spacing={4}>
         {mock.map((item, i) => (

@@ -83,7 +83,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             color="primary"
             component="a"
             target="blank"
-            href="mailto:giorgio.tassinari@proton.me"
+            href="/contact"
             size="large"
           >
             Contattami
