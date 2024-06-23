@@ -7,28 +7,28 @@ import Button from '@mui/material/Button';
 
 const mock = [
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img48.jpg',
-    description: 'Electric toothbrush, designed for you',
-    title: 'Goby',
+    image: 'https://raw.githubusercontent.com/giorgioGTelian/Portfolio_website/master/src/assets/img/portfolio/wordpress.jpg',
+    description: "Il nostro progetto si focalizza sulla creazione di siti web dinamici e interattivi basati sulla piattaforma WordPress ",
+    title: 'Blog e Siti Web',
     color: '#183167',
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img45.jpg',
-    description: 'Just do it',
-    title: 'Nike',
-    color: '#CE371F',
+    image: 'https://raw.githubusercontent.com/giorgioGTelian/Portfolio_website/master/src/assets/img/portfolio/gestionale.jpg',
+    description: 'Gestionale per amministrazione e gestione personalizzati per azienda qui sotto vedrete alcuni esempi di gestionali sviluppati per aziende clienti',
+    title: 'Gestionali',
+    color: '#183167',
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img47.jpg',
-    description: 'Curology custom skincare',
-    title: 'Curology',
+    image: 'https://raw.githubusercontent.com/giorgioGTelian/Portfolio_website/master/src/assets/img/portfolio/mobile.jpg',
+    description: 'Sviluppo di applicazioni mobile per Android e iOS, con interfaccia utente intuitiva e funzionalità avanzate',
+    title: 'Applicazioni Mobile',
     color: '#ECB3BE',
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img43.jpg',
-    description: 'The world\'s best bikes and cycling gear',
-    title: 'Trek',
-    color: '#000000',
+    image: 'https://raw.githubusercontent.com/giorgioGTelian/Portfolio_website/master/src/assets/img/portfolio/blog.jpg',
+    description: 'gestione di database per siti web e applicazioni, con funzionalità avanzate e sicurezza garantita',
+    title: 'Gestione di database',
+    color: '#ECB3BE',
   },
 ];
 
@@ -97,7 +97,7 @@ const Folio = () => {
                   variant={'contained'}
                   color={'secondary'}
                 >
-                  Read more
+                  Scopri di più
                 </Button>
               </Box>
             </Box>
