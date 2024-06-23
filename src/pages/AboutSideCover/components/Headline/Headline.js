@@ -34,7 +34,7 @@ const Headline = () => {
           gutterBottom
           align={'center'}
         >
-          About us
+          Su di noi
         </Typography>
         <Typography
           variant="h6"
@@ -42,12 +42,11 @@ const Headline = () => {
           align={'center'}
           gutterBottom
         >
-          We take you by hand on each step of the process
+          Siamo esperti sia in design che sviluppo
         </Typography>
         <Typography variant="h6" color={'text.secondary'} align={'center'}>
-          As experts in both design & development, we help you go through the
-          complete process. From your new website idea, to design, development,
-          launch and scale!
+          ti aiutiamo a passare attraverso l'intero processo. Dal tuo nuovo sito web, al design,
+          sviluppo, lancio e scale!
         </Typography>
       </Box>
     </Box>

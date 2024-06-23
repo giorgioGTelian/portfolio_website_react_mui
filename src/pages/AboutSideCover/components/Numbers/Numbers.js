@@ -10,15 +10,15 @@ const Numbers = () => {
         {[
           {
             title: 12,
-            subtitle: '12 years in business.',
+            subtitle: '18 anni di esperienza',
           },
           {
-            title: '5,2K',
-            subtitle: '5.200 sold copies',
+            title: '2K',
+            subtitle: '2000 siti e applicazioni web realizzati.',
           },
           {
             title: '99%',
-            subtitle: '99% customer statisfication.',
+            subtitle: '99% di clienti soddisfatti.',
           },
         ].map((item, i) => (
           <Grid key={i} item xs={12} sm={4}>

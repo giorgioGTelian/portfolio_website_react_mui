@@ -11,24 +11,23 @@ const Story = () => {
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Typography fontWeight={700} variant={'h5'}>
-            We design and implement creative solutions to everyday business
-            problems
+            facciamo la differenza
           </Typography>
         </Grid>
         <Grid item xs={12} md={6}>
           <Typography component={'p'} color={'text.secondary'} fontWeight={400}>
-            We are a team of creative consultants who help bridge the digital
-            gap between companies and their clients with websites that not only
-            serve as marketing platforms but also provide solutions to online
-            business problems and digital marketing strategies that connect you
-            with the ideal client and help create a loyal customer.
+            siamo un team di consulenti creativi che aiutano a colmare il gap
+            digitale tra le aziende e i loro clienti con siti web che non solo
+            servono come piattaforme di marketing ma forniscono anche soluzioni
+            ai problemi aziendali online e strategie di marketing digitale che
+            ti mettono in contatto con il cliente ideale e aiutano a creare un
+            cliente fedele.
             <br />
             <br />
-            We are a team of creative consultants who help bridge the digital
-            gap between companies and their clients with websites that not only
-            serve as marketing platforms but also provide solutions to online
-            business problems and digital marketing strategies that connect you
-            with the ideal client and help create a loyal customer.
+            usiamo le ultime tecnologie per offrire servizi di consulenza
+            personalizzati per aiutare le aziende a raggiungere i loro obiettivi
+            aziendali. La nostra esperienza e competenza nel settore ci
+            consentono di offrire soluzioni su misura e di alta qualità.
           </Typography>
         </Grid>
         <Grid item xs={12}>

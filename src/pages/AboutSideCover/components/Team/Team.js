@@ -14,32 +14,32 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 
 const mock = [
   {
-    name: 'Chary Smith',
+    name: 'Giorgio Tassinari',
     title: 'SEO at Comoti',
     avatar: 'https://assets.maccarianagency.com/avatars/img3.jpg',
     about:
-      'I am an ambitious workaholic, but apart from that, pretty simple person.',
+      'Web developer e appassionato di informatica.',
   },
   {
     name: 'Clara Bertoletti',
     title: 'Junior Designer',
     avatar: 'https://assets.maccarianagency.com/avatars/img4.jpg',
     about:
-      'I am an ambitious workaholic, but apart from that, pretty simple person.',
+      'semplificare il mondo del design.',
   },
   {
-    name: 'Jhon Anderson',
+    name: 'Paolo Antonelli',
     title: 'Senior Frontend Developer',
     avatar: 'https://assets.maccarianagency.com/avatars/img5.jpg',
     about:
-      'I am an ambitious workaholic, but apart from that, pretty simple person.',
+      'Sviluppatore web con esperienza decennale.',
   },
   {
-    name: 'Chary Smith',
+    name: 'Riccardo Cuppini',
     title: 'SEO at Comoti',
     avatar: 'https://assets.maccarianagency.com/avatars/img6.jpg',
     about:
-      'I am an ambitious workaholic, but apart from that, pretty simple person.',
+      'Sono un esperto di SEO e SEM.',
   },
 ];
 
@@ -57,10 +57,10 @@ const Team = () => {
           color={'text.secondary'}
           align={'center'}
         >
-          Our team
+          Il nostro team
         </Typography>
         <Typography fontWeight={700} variant={'h4'} align={'center'}>
-          Trust the professionals
+          fidati di noi
         </Typography>
       </Box>
       <Grid container spacing={2}>

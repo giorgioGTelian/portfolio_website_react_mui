@@ -52,11 +52,11 @@ const NotFoundCover = () => {
                     color="text.secondary"
                     align={isMd ? 'left' : 'center'}
                   >
-                    Oops! Looks like you followed a bad link.
+                    Oops! non ho ancora fatto questa pagina.
                     <br />
-                    If you think this is a problem with us, please{' '}
-                    <Link href={''} underline="none">
-                      tell us
+                    però se pensi che ci debba essere per favore{' '}
+                    <Link href={'/contact'} underline="none">
+                      fammelo sapere
                     </Link>
                   </Typography>
                   <Box
@@ -71,7 +71,7 @@ const NotFoundCover = () => {
                       size="large"
                       href={'/'}
                     >
-                      Back home
+                      Torna alla home
                     </Button>
                   </Box>
                 </Box>
