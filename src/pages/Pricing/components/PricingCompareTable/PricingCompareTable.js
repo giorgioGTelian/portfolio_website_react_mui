@@ -14,19 +14,19 @@ import Paper from '@mui/material/Paper';
 
 const features = [
   {
-    title: '1 User',
+    title: 'Utenti',
     id: 1,
   },
   {
-    title: '1 App',
+    title: 'Applicazioni',
     id: 2,
   },
   {
-    title: 'Integrations',
+    title: 'Integrazioni genriche',
     id: 3,
   },
   {
-    title: 'Google Ads',
+    title: '24/7 supporto',
     id: 4,
   },
   {
@@ -34,11 +34,11 @@ const features = [
     id: 5,
   },
   {
-    title: 'API access',
+    title: 'Supporto prioritario',
     id: 6,
   },
   {
-    title: 'Facebook Ads',
+    title: 'Integrazione personalizzata',
     id: 7,
   },
 ];
@@ -52,7 +52,7 @@ const pricing = [
     },
     features: [1, 2, 3, 7],
     isHighlighted: false,
-    btnText: 'Get Starter',
+    btnText: 'iniziamo',
   },
   {
     title: 'Pro',
@@ -62,7 +62,7 @@ const pricing = [
     },
     features: [1, 3, 4, 5],
     isHighlighted: true,
-    btnText: 'Get Pro',
+    btnText: 'diventa pro',
   },
   {
     title: 'Enterprise',
@@ -72,7 +72,7 @@ const pricing = [
     },
     features: [1, 2, 3, 4, 5, 6, 7],
     isHighlighted: false,
-    btnText: 'Contact us',
+    btnText: 'contattaci',
   },
 ];
 
@@ -82,14 +82,14 @@ const PricingCompareTable = () => {
     <Box>
       <Box marginBottom={4}>
         <Typography fontWeight={700} variant={'h4'}>
-          Compare the options
+          Confronta i piani
         </Typography>
       </Box>
       <Box>
         <TableContainer component={Paper} elevation={0}>
           <Table aria-label="caption table" sx={{ minWidth: 600 }}>
             <caption>
-              Compare the plans and choose the one which works for you the best.
+              fai clic sul piano che preferisci per iniziare
             </caption>
             <TableHead>
               <TableRow>

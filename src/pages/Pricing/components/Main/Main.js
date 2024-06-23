@@ -14,41 +14,41 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import useMediaQuery from '@mui/material/useMediaQuery';
-
+import { useNavigate } from 'react-router-dom';
 import Container from '../../../../components/Container';
 import { blue } from '@mui/material/colors';
 
 const mock = [
   {
     title: 'Starter',
-    subtitle: 'Is perfect for individual developers',
-    price: { monthly: '$22', annual: '$190' },
-    features: ['1 User', '1 App', 'Integrations'],
+    subtitle: 'perfetto per chi inizia',
+    price: { monthly: '€22', annual: '€190' },
+    features: ['1 utente', '1 applicazione', '1 integrazione', ],
     isHighlighted: false,
   },
   {
     title: 'Pro',
-    subtitle: 'For teams and advanced developers',
-    price: { monthly: '$44', annual: '$390' },
+    subtitle: 'per chi vuole un po di più',
+    price: { monthly: '€44', annual: '€390' },
     features: [
-      'All in Starter plan',
-      'Google Ads',
-      'SSO via Google',
-      'API access',
+      'starter plan incluso',
+      'fino a 20 utenti',
+      'API accesso',
+      '24/7 supporto',
     ],
     isHighlighted: true,
   },
   {
     title: 'Enterprise',
-    subtitle: 'Ideal for corporate companyes',
-    price: { monthly: '$77', annual: '$690' },
+    subtitle: 'Ideale per chi sa cosa vuole',
+    price: { monthly: '€160', annual: '€2000' },
     features: [
-      'All features',
-      'Email support',
+      'tutte le funzionalità',
+      'supporto prioritario',
       'Google Ads',
-      'SSO via Google',
-      'API access',
-      'Facebook Ads',
+      'applicazione personalizzata',
+      'sito web personalizzato',
+      'integrazione inclusa',
     ],
     isHighlighted: false,
   },
@@ -65,7 +65,7 @@ const Main = () => {
   const handleClick = (event, newPricingOption) => {
     setPricingOption(newPricingOption);
   };
-
+  const navigate = useNavigate();
   const renderToggler = () => (
     <Box display={'flex'} justifyContent={'center'} marginBottom={4}>
       <ToggleButtonGroup value={pricingOption} exclusive onChange={handleClick}>
@@ -88,7 +88,7 @@ const Main = () => {
                 pricingOption === 'annual' ? 'common.white' : 'text.primary',
             }}
           >
-            Annual
+            Annuale
           </Typography>
         </ToggleButton>
         <ToggleButton
@@ -110,7 +110,7 @@ const Main = () => {
                 pricingOption !== 'annual' ? 'common.white' : 'text.primary',
             }}
           >
-            Monthly
+            Mensile
           </Typography>
         </ToggleButton>
       </ToggleButtonGroup>
@@ -137,7 +137,7 @@ const Main = () => {
                   fontWeight: 900,
                 }}
               >
-                Flexible pricing options
+                Opzioni di prezzo flessibili
               </Typography>
               <Typography
                 variant="h6"
@@ -145,11 +145,9 @@ const Main = () => {
                 color="text.primary"
                 align={'center'}
               >
-                We are founded by a leading academic and researcher in the field
-                of Industrial Systems Engineering.
+                Scegli il piano che si adatta meglio alle tue esigenze e 
                 <br />
-                For entrepreneurs, startups and freelancers. If you didn’t find
-                what you needed, these could help!
+                inizia a crescere il tuo business con noi oggi.
               </Typography>
             </Box>
             {renderToggler()}
@@ -195,7 +193,7 @@ const Main = () => {
                       color={'text.secondary'}
                       fontWeight={700}
                     >
-                      {pricingOption === 'annual' ? '/y' : '/mo'}
+                      {pricingOption === 'annual' ? '/anno' : '/mese'}
                     </Typography>
                   </Box>
                   <Grid container spacing={1}>
@@ -241,8 +239,8 @@ const Main = () => {
                 </CardContent>
                 <Box flexGrow={1} />
                 <CardActions sx={{ justifyContent: 'flex-end', padding: 4 }}>
-                  <Button size={'large'} variant={'contained'}>
-                    Learn more
+                  <Button size={'large'} variant={'contained'} onClick={() => navigate('/contact')}>
+                    scopri di più
                   </Button>
                 </CardActions>
               </Box>

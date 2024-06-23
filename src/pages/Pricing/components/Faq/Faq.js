@@ -5,32 +5,32 @@ import Typography from '@mui/material/Typography';
 
 const mock = [
   {
-    title: 'Can I purchase a gift certificate?',
+    title: 'Posso acquistare un buono regalo?',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },
   {
-    title: 'What is your return policy?',
+    title: 'Qual è la vostra politica di reso?',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },
   {
-    title: 'Do you sell gift cards?',
+    title: 'Vendete carte regalo?',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },
   {
-    title: 'Can I change plans later on?',
+    title: 'Posso cambiare piano in seguito?',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },
   {
-    title: 'Is this a subscription service?',
+    title: 'È un servizio in abbonamento?',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },
   {
-    title: 'Can I purchase a gift certificate?',
+    title: 'Posso acquistare un buono regalo?',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
   },

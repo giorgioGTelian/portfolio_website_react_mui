@@ -6,19 +6,19 @@ import Button from '@mui/material/Button';
 
 const mock = [
   {
-    title: 'Move deals through your funnel – fast',
+    title: '24/7 support',
     subtitle:
-      'Our chatbots and live chat capture more of your best leads and convert them while they’re hot.',
+      'siamo sempre disponibili per aiutarti con qualsiasi domanda o problema.',
   },
   {
-    title: 'On demand services right at your front-door',
+    title: 'sevizio clienti dedicato',
     subtitle:
-      'Our chatbots and live chat capture more of your best leads and convert them while they’re hot.',
+      'i nostri esperti sono sempre pronti a rispondere alle tue domande.',
   },
   {
-    title: 'Online 24/7 support',
+    title: 'applicazione personalizzata',
     subtitle:
-      'Our chatbots and live chat capture more of your best leads and convert them while they’re hot.',
+      'cerchiamo di soddisfare le tue esigenze personalizzando l’applicazione.',
   },
 ];
 
@@ -34,11 +34,10 @@ const Plans = () => {
             fontWeight: 700,
           }}
         >
-          Business grade quality for all plans
+          cerchiamo di soddisfare le tue esigenze
         </Typography>
         <Typography variant="h6" align={'center'} color={'text.secondary'}>
-          For entrepreneurs, startups and freelancers. If you didn’t find what
-          you needed, these could help!
+          per questo offriamo piani flessibili che si adattano alle tue esigenze.
         </Typography>
       </Box>
       <Grid container spacing={4}>
@@ -76,7 +75,7 @@ const Plans = () => {
                   </Box>
                 }
               >
-                Learn more
+                scopri di più
               </Button>
             </Box>
           </Grid>
