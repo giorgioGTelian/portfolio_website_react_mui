@@ -15,8 +15,6 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
     secondary: secondaryPages,
     company: companyPages,
     account: accountPages,
-    portfolio: portfolioPages,
-    blog: blogPages,
   } = pages;
 
   return (

@@ -1,26 +1,26 @@
 const pages = {
   landings: [
     {
-      title: 'Mobile App',
+      title: 'Applicazione web',
       href: '/mobile-app',
     }
   ],
   company: [
     {
-      title: 'Career Lising',
-      href: '/career-listing',
+      title: 'Chi sono',
+      href: '/about',
     }
   ],
   account: [
     {
-      title: 'Chi sono',
-      href: '/account-general',
+      title: 'in costruzione ..',
+      href: '/blog',
     }
   ],
   secondary: [
     {
-      title: 'Help Center: Overview',
-      href: '/help-center',
+      title: 'chiedi un preventivo',
+      href: '/pricing',
     },
   ],
 
