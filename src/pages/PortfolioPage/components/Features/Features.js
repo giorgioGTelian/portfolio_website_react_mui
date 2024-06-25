@@ -61,8 +61,7 @@ const Features = () => {
                 Monitora e analizza i modelli di utilizzo.
               </Typography>
               <Typography sx={{ color: 'common.white' }} variant={'h6'}>
-                Monitora e analizza i modelli di utilizzo per ottimizzare le
-                operazioni e la distribuzione delle risorse.
+                Fai tuoi i processi di archiviazione e analisi dei dati con una soluzione di piccole dimensioni per le aziende in crescita.
               </Typography>
             </Box>
             <Grid container spacing={1}>
